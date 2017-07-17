@@ -2,13 +2,6 @@
   <block type="timesetbyname"></block>
   <block type="weather"></block>
   <block type="agent"></block>
-  <block type="player">
-    <value name="every">
-      <block type="math_number">
-        <field name="NUM">1000</field>
-      </block>
-  </block>
-  <block type="player_get_pos"></block>
   <block type="move">
     <value name="step">
       <block type="math_number">
@@ -27,4 +20,11 @@
         <field name="NUM">1</field>
       </block>
   </block>
+  <block type="player">
+    <value name="every">
+      <block type="math_number">
+        <field name="NUM">1000</field>
+      </block>
+  </block>
+  <block type="player_get_pos"></block>  
 </category>

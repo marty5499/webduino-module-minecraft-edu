@@ -31,7 +31,6 @@ Blockly.Blocks['timesetbyname'] = {
   }
 };
 
-
 Blockly.Blocks['agent'] = {
   init: function () {
     this.appendDummyInput()
@@ -70,7 +69,6 @@ Blockly.Blocks['player'] = {
     this.setHelpUrl('');
   }
 };
-
 
 Blockly.Blocks['player_get_pos'] = {
   init: function () {
@@ -130,7 +128,6 @@ Blockly.Blocks['turn'] = {
     this.setHelpUrl('https://webduino.io');
   }
 };
-
 
 Blockly.Blocks['destroy'] = {
   init: function () {

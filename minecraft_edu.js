@@ -24,7 +24,6 @@
     }
   });
 
-
   proto.ajax = function (cmd, callback) {
     console.log("ajax:", cmd);
     var xmlHttp = new XMLHttpRequest();
