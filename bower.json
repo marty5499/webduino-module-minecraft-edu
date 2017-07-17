@@ -1,0 +1,18 @@
+{
+  "name": "webduino-module-minecraft-edu",
+  "description": "minecraft education Module for Webduino",
+  "main": "minecraft_edu.js",
+  "authors": "",
+  "license": "ISC",
+  "keywords": [
+    "arduino",
+    "webduino"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

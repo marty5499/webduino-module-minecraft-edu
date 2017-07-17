@@ -1,0 +1,15 @@
+{
+  "types": ["weather", "agent", "move", "turn", "destroy", "player"],
+  "category": "catMenu3",
+  "scripts": [
+    "blockly/blocks.js",
+    "blockly/javascript.js"
+  ],
+  "dependencies": [
+    "minecraft_edu.js",
+    "minecraft_edu-blockly.js"
+  ],
+  "msg": "blockly/msg",
+  "blocksMsg": "blockly/msg/blocks",
+  "toolbox": "blockly/toolbox.xml"
+}

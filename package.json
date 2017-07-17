@@ -1,0 +1,19 @@
+{
+  "name": "webduino-module-minecraft-edu",
+  "version": "1.0.0",
+  "description": "Minecraft Education Module for Webduino",
+  "main": "minecraft_edu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "arduino",
+    "webduino",
+    "minecraft_edu"
+  ],
+  "dependencies": {
+    "webduino-js": "0.x"
+  }
+}
