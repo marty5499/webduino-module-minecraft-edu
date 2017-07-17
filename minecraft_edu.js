@@ -84,9 +84,10 @@
           pos = JSON.parse(pos);
           if (Object.keys(pos).length === 0) return;
           var p = pos.PlayerTravelled.measurements;
-          self.posX = PosAvgX;
-          self.posY = PosAvgY;
-          self.posZ = PosAvgZ;
+          self.posX = p.PosAvgX;
+          self.posY = p.PosAvgY;
+          self.posZ = p.PosAvgZ;
+
           console.log("playPos:", p.PosAvgX, p.PosAvgY, p.PosAvgZ);
           callback(self.posX, self.posY, self.posZ);
         });

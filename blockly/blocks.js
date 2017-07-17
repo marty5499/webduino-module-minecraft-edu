@@ -72,6 +72,22 @@ Blockly.Blocks['player'] = {
 };
 
 
+Blockly.Blocks['player_get_pos'] = {
+  init: function () {
+    this.appendDummyInput()
+      .appendField(Blockly.Msg.WEBDUINO_MINECRAFT_EDU_POSITION, "取得目前玩家的")
+      .appendField(new Blockly.FieldDropdown([
+        ['x', "posX"],
+        ['y', "posY"],
+        ['z', "posZ"]
+      ]), "pos");
+    this.setOutput(true);
+    this.setTooltip('');
+    this.setColour(35);
+    this.setHelpUrl('https://webduino.io');
+  }
+};
+
 Blockly.Blocks['move'] = {
   init: function () {
     this.appendDummyInput()
