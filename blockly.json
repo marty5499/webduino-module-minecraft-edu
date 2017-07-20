@@ -1,5 +1,5 @@
 {
-  "types": ["weather", "agent", "move", "turn", "destroy", "player"],
+  "types": ["weather", "agent", "move", "turn", "destroy", "player","agentserver"],
   "category": "catMenu3",
   "scripts": [
     "blockly/blocks.js",

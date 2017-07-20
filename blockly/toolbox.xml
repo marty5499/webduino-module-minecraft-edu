@@ -1,4 +1,5 @@
 <category id="catMinecraftEdu" tags="fly,mark1,smart">
+  <block type="agentserver"></block>
   <block type="timesetbyname"></block>
   <block type="weather"></block>
   <block type="agent"></block>
